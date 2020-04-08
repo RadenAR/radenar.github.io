@@ -1,56 +1,31 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name":"Raden",
+    "occupation":"Software Engineer",
+    "description":"",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "bio":"Dynamic, highly motivated full-stack software engineer with a background in management consulting. Incorporating powerful programming tools to increase workflow efficiency in combination with a strong interest in systems and optimization has led me to pursue my passion for software.",
+    "contactmessage":"Full-time or freelance enquiries:",
+    "email": "radenabdulrahman@gmail.com",
+    "phone": "(617) 991 - 4945",
     "address":{
       "street":"(Your Street)",
       "city":"(Your City)",
       "state":"(Your State)",
       "zip": "(Your Zip/Postal Code)"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://radenar.github.io",
+    "resumedownload":"#",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/radenar/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"http://github.com/radenar",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
@@ -58,16 +33,22 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"General Assembly",
+        "degree":"Software Engineering Immersive",
+        "graduated":"2020",
+        "description":""
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Queen Mary University of London",
+        "degree":"M.Sc. Business Finance",
+        "graduated":"2018",
+        "description":""
+      },
+      {
+        "school":"Western University",
+        "degree":"B.A. Honors in Economics",
+        "graduated":"2015",
+        "description":""
       }
     ],
     "work":[
@@ -86,66 +67,100 @@
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
+        "title":"MongoooDB",
+        "image":"mongo-logo.png"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "title":"Express",
+        "image":"express-logo.png"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "title":"React",
+        "image":"react-logo.png"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "title":"Node",
+        "image":"node-logo.png"
       },
       {
-        "name":"HTML5",
-        "level":"80%"
+        "title":"JavaScript",
+        "image":"javascript-logo.jpg"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "title":"HTML5",
+        "image":"html-logo.png"
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "title":"CSS3",
+        "image":"css3-logo.png"
+      },
+      {
+        "title":"SASS",
+        "image":"sass-logo.png"
+      },
+      {
+        "title":"Bootstrap",
+        "image":"bootstrap-logo.png"
+      },
+      {
+        "title":"Ruby",
+        "image":"ruby-logo.png"
+      },
+      {
+        "title":"Rails",
+        "image":"rails-logo.png"
+      },
+      {
+        "title":"Postgres",
+        "image":"postgre-logo.png"
+      },
+      {
+        "title":"jQuery",
+        "image":"jquery-logo.png"
+      },
+      {
+        "title":"Heroku",
+        "image":"heroku-logo.png"
+      },
+      {
+        "title":"Handlebars",
+        "image":"handlebars-logo.png"
+      },
+      {
+        "title":"Git",
+        "image":"git-logo.png"
+      },
+      {
+        "title":"GitHub",
+        "image":"github-logo.png"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Tic-Tac-Toe",
+        "category":"Fun tic-tac-toe game, play against yourself or an AI",
+        "image":"tic-tac-toe.png",
+        "url":"https://radenar.github.io/tictactoe-client/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Restaurant App",
+        "category":"Restaurand and reservation tracker",
+        "image":"restaurant-app.png",
+        "url":"https://radenar.github.io/restaurant-app-front/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Bucket List",
+        "category":"A bucket list tracker with Google Maps API integration",
+        "image":"bucket-list.png",
+        "url":"https://t-hatsquad.github.io/bucket-list-client/"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"My Social App",
+        "category":"A social media application with Posts, Comments, Likes and Friends",
+        "image":"social-app.png",
+        "url":"https://radenar.github.io/social-client/"
       }
     ]
   },
