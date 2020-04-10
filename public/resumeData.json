@@ -15,7 +15,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://radenar.github.io",
-    "resumedownload":"#",
+    "resumedownload":"https://www.dropbox.com/s/wwo1fovr5h0fgoc/Raden.pdf?dl=0",
     "social":[
       {
         "name":"linkedin",
@@ -67,7 +67,7 @@
     ],
     "skills":[
       {
-        "title":"MongoooDB",
+        "title":"MongoDB",
         "image":"mongo-logo.png"
       },
       {

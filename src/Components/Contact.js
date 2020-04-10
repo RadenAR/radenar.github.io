@@ -12,6 +12,7 @@ class Contact extends Component {
       var phone= this.props.data.phone;
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
+      var resumeDownload = this.props.data.resumedownload;
     }
 
     return (
@@ -83,9 +84,14 @@ class Contact extends Component {
 						   {name} Abdul Rahman<br />
 						   {email} <br />
 						   {/* {city}, {state} {zip}<br /> */}
-						   <span>{phone}</span>
+						   {/* <span>{phone}</span> */}
 					   </p>
 				   </div>
+               <div className="columns download">
+                  <p>
+                     <a href={resumeDownload} className="button" style={{display: "table-cell"}} target="_blank" ><i className="fa fa-download" targer='_blank'></i>View Resume</a>
+                  </p>
+               </div>
 
                {/* <div className="widget widget_tweets">
                   <h4 className="widget-title">Latest Tweets</h4>

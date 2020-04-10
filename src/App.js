@@ -9,7 +9,6 @@ import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 // import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
-import { Route } from 'react-router-dom'
 
 class App extends Component {
 
@@ -47,25 +46,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Route exact path='/' render={() => (
-          <Header data={this.state.resumeData.main}/>
-        )} />
-        <Route exact path='/' render={() => (
-          <About data={this.state.resumeData.main}/>
-        )} />
-        <Route exact path='/' render={() => (
-          <Resume data={this.state.resumeData.resume}/>
-        )} />
-        <Route exact path='/' render={() => (
-          <Portfolio data={this.state.resumeData.portfolio}/>
-        )} />
+        <Header data={this.state.resumeData.main}/>
+        <About data={this.state.resumeData.main}/>
+        <Resume data={this.state.resumeData.resume}/>
+        <Portfolio data={this.state.resumeData.portfolio}/>
         {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
-        <Route exact path='/' render={() => (
-          <Contact data={this.state.resumeData.main}/>
-        )} />
-        <Route exact path='/' render={() => (
-          <Footer data={this.state.resumeData.main}/>
-        )} />
+        <Contact data={this.state.resumeData.main}/>
+        <Footer data={this.state.resumeData.main}/>
       </div>
     );
   }
