@@ -9,7 +9,7 @@ class Contact extends Component {
       // var city = this.props.data.address.city;
       // var state = this.props.data.address.state;
       // var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
+      // var phone= this.props.data.phone;
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
       var resumeDownload = this.props.data.resumedownload;
@@ -18,7 +18,7 @@ class Contact extends Component {
     return (
       <section id="contact">
 
-         <div className="row section-head">
+         {/* <div className="row section-head">
 
             <div className="two columns header-col">
 
@@ -32,12 +32,12 @@ class Contact extends Component {
 
             </div>
 
-         </div>
+         </div> */}
 
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+               {/* <form action="" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -67,14 +67,13 @@ class Contact extends Component {
                      </span>
                   </div>
 					</fieldset>
-				   </form>
+				   </form> */}
 
-           <div id="message-warning"> Error boy</div>
+           {/* <div id="message-warning"> Error boy</div>
 				   <div id="message-success">
                   <i className="fa fa-check"></i>Your message was sent, thank you!<br />
 				   </div>
-           </div>
-
+           </div> */}
 
             <aside className="four columns footer-widgets">
                <div className="widget widget_contact">
@@ -87,7 +86,7 @@ class Contact extends Component {
 						   {/* <span>{phone}</span> */}
 					   </p>
 				   </div>
-               <div className="columns download">
+               <div className="download">
                   <p>
                      <a href={resumeDownload} className="button" style={{display: "table-cell"}} target="_blank" ><i className="fa fa-download" targer='_blank'></i>View Resume</a>
                   </p>
@@ -115,6 +114,7 @@ class Contact extends Component {
                   </ul>
 		         </div> */}
             </aside>
+      </div>
       </div>
    </section>
     );
