@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #00AECA; }
 
 
 /* ------------------------------------------------------------------ */
@@ -906,6 +906,17 @@ call-to-action .button {
    top: 17px;
 }
 
+#contact .download .button {
+   margin-top: 6px;
+   background: #444;
+   color: #fff;
+}
+
+#contact .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+
 
 /* Twitter Feed */
 #twitter {
@@ -977,7 +988,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #00AECA;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
