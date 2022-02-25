@@ -67,72 +67,52 @@
     ],
     "skills":[
       {
-        "title":"MongoDB",
-        "image":"mongo-logo.png"
-      },
-      {
-        "title":"Express",
-        "image":"express-logo.png"
+        "title": "Typescript",
+        "image": "typescript.png"
       },
       {
         "title":"React",
         "image":"react-logo.png"
       },
       {
+        "title": "Neovim",
+        "image": "neovim.png"
+      },
+      {
+        "title": "Docker",
+        "image": "docker.png"
+      },
+      {
+        "title": "GraphQL",
+        "image": "graphql.png"
+      },
+      {
         "title":"Node",
         "image":"node-logo.png"
+      },
+      {
+        "title":"MongoDB",
+        "image":"mongo-logo.png"
       },
       {
         "title":"JavaScript",
         "image":"javascript-logo.png"
       },
       {
-        "title":"HTML5",
-        "image":"html-logo.png"
-      },
-      {
-        "title":"CSS3",
-        "image":"css3-logo.png"
+        "title":"Express",
+        "image":"express-logo.png"
       },
       {
         "title":"SASS",
         "image":"sass-logo.png"
       },
       {
-        "title":"Bootstrap",
-        "image":"bootstrap-logo.png"
-      },
-      {
-        "title":"Ruby",
-        "image":"ruby-logo.png"
-      },
-      {
-        "title":"Rails",
-        "image":"rails-logo.png"
-      },
-      {
         "title":"Postgres",
         "image":"postgre-logo.png"
       },
       {
-        "title":"jQuery",
-        "image":"jquery-logo.png"
-      },
-      {
-        "title":"Heroku",
-        "image":"heroku-logo.png"
-      },
-      {
-        "title":"Handlebars",
-        "image":"handlebars-logo.png"
-      },
-      {
         "title":"Git",
         "image":"git-logo.png"
-      },
-      {
-        "title":"GitHub",
-        "image":"github-logo.png"
       }
     ]
   },
